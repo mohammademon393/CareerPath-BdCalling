@@ -68,6 +68,7 @@
         left: -3%;
     }
 }
+
 /* tablet */
 @media (max-width: 768px) {
     .hero-section {
@@ -245,7 +246,8 @@
         justify-self: center;
     }
 }
- /* sm device */
+
+/* sm device */
 @media (max-width: 480px) {
     .about-section {
         padding: 35px 5% 45px;
@@ -417,6 +419,8 @@
         padding: 25px 5% 40px;
     }
 
+    
+
     .stories-container {
         padding: 30px;
         gap: 30px;
@@ -436,6 +440,10 @@
 }
 
 @media (max-width: 768px) {
+    .stories-section {
+        padding: 30px;
+    }
+
     .stories-container {
         grid-template-columns: 1fr;
         gap: 35px;
@@ -583,5 +591,90 @@
 
     .review-text {
         font-size: 12px;
+    }
+}
+
+
+/* =========================
+  Contect section RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 992px) {
+    .contact-section {
+        padding: 60px 5%;
+    }
+
+    .contact-content {
+        gap: 22px;
+    }
+
+    .contact-info {
+        padding: 28px 22px;
+    }
+
+    .contact-form {
+        padding: 28px 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-section {
+        padding: 50px 6%;
+    }
+
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .contact-info {
+        padding: 30px;
+    }
+
+    .contact-heading h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-section {
+        padding: 40px 5%;
+    }
+
+    .contact-heading {
+        margin-bottom: 30px;
+    }
+
+    .contact-form {
+        margin-left: 0px;
+    }
+
+    .contact-heading h2 {
+        font-size: 26px;
+    }
+
+    .contact-heading p {
+        font-size: 12px;
+    }
+
+    .contact-info {
+        padding: 25px 20px;
+    }
+
+    .contact-info h3 {
+        font-size: 22px;
+    }
+
+    .contact-form {
+        padding: 24px 18px;
+    }
+
+    .contact-form h3 {
+        font-size: 20px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        padding: 12px;
     }
 }
