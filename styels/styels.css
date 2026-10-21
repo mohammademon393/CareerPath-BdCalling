@@ -568,3 +568,137 @@ body {
 }
 
 
+/* =========================
+   STORIES SECTION
+========================= */
+
+.stories-section {
+    padding: 25px 7px 45px;
+    background: #ffffff;
+}
+
+.stories-container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 35px 45px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 55px;
+
+    background: #e9da78;
+    border-radius: 15px;
+}
+
+/* Stories Content */
+
+.stories-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #080808;
+    margin-bottom: 16px;
+}
+
+.stories-content>p {
+    color: #292929;
+    font-size: 13px;
+    line-height: 1.8;
+    margin-bottom: 14px;
+}
+
+/* Story Features */
+
+.story-feature {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 14px;
+}
+
+.story-feature-icon {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 36px;
+    height: 36px;
+
+    color: #062b43;
+    background: #ffffff;
+    border-radius: 50%;
+    font-size: 13px;
+}
+
+.story-feature span {
+    color: #171717;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.stories-btn {
+    display: inline-block;
+    margin-top: 22px;
+}
+
+/* Stories Image Collage */
+
+.stories-images {
+    position: relative;
+    min-width: 0;
+    padding: 0 0 0 10px;
+}
+
+.stories-image-top,
+.stories-image-bottom {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.stories-image-top {
+    width: 90%;
+    height: 190px;
+    margin-left: auto;
+    margin-bottom: 15px;
+}
+
+.stories-image-bottom {
+    width: 90%;
+    height: 145px;
+}
+
+.stories-images img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+.stories-img{
+    display: flex;
+    gap: 16px;
+    margin-left: 50px;
+}
+
+.stories-images img:hover {
+    transform: scale(1.05);
+}
+
+/* Decorative Circle */
+
+.stories-image-circle {
+    position: absolute;
+    z-index: 0;
+    left: -10px;
+    bottom: -10px;
+
+    width: 115px;
+    height: 115px;
+
+    background: #062b43;
+    border-radius: 50%;
+}
+

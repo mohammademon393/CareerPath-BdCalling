@@ -405,3 +405,110 @@
         font-size: 12px;
     }
 }
+
+
+
+/* =========================
+ Stories  RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 992px) {
+    .stories-section {
+        padding: 25px 5% 40px;
+    }
+
+    .stories-container {
+        padding: 30px;
+        gap: 30px;
+    }
+
+    .stories-content h2 {
+        font-size: 28px;
+    }
+
+    .stories-image-top {
+        height: 165px;
+    }
+
+    .stories-image-bottom {
+        height: 125px;
+    }
+}
+
+@media (max-width: 768px) {
+    .stories-container {
+        grid-template-columns: 1fr;
+        gap: 35px;
+        padding: 30px;
+    }
+
+    .stories-content h2 {
+        font-size: 30px;
+    }
+
+    .stories-images {
+        width: 100%;
+        max-width: 480px;
+        margin: 0 auto;
+    }
+
+    .stories-image-top {
+        height: 220px;
+    }
+
+    .stories-image-bottom {
+        height: 165px;
+    }
+}
+
+@media (max-width: 480px) {
+    .stories-section {
+        padding: 20px 5% 30px;
+    }
+
+    .stories-container {
+        padding: 22px 18px;
+        gap: 28px;
+        border-radius: 12px;
+    }
+
+    .stories-content h2 {
+        font-size: 26px;
+    }
+
+    .stories-content>p {
+        font-size: 12px;
+    }
+
+    .story-feature span {
+        font-size: 12px;
+    }
+
+    .story-feature-icon {
+        width: 33px;
+        height: 33px;
+    }
+
+    .stories-images {
+        padding: 0 4px;
+    }
+
+    .stories-image-top {
+        height: 165px;
+    }
+
+    .stories-image-bottom {
+        height: 125px;
+    }
+
+    .stories-image-circle {
+        width: 75px;
+        height: 75px;
+        left: -4px;
+        bottom: -7px;
+    }
+
+    .stories-btn {
+        margin-top: 18px;
+    }
+}
