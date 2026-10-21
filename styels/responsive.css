@@ -512,3 +512,76 @@
         margin-top: 18px;
     }
 }
+
+
+/* =========================
+  Customer reviews RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 992px) {
+    .reviews-section {
+        padding: 60px 5%;
+    }
+
+    .reviews-grid {
+        gap: 16px;
+    }
+
+    .review-card {
+        padding: 20px 16px;
+    }
+
+    .reviews-heading h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .reviews-section {
+        padding: 50px 6%;
+    }
+
+    .reviews-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .review-card:last-child {
+        grid-column: 1 / -1;
+    }
+}
+
+@media (max-width: 480px) {
+    .reviews-section {
+        padding: 40px 5%;
+    }
+
+    .reviews-heading {
+        margin-bottom: 35px;
+    }
+
+    .reviews-heading h2 {
+        font-size: 26px;
+    }
+
+    .reviews-heading p {
+        font-size: 12px;
+    }
+
+    .reviews-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .review-card:last-child {
+        grid-column: auto;
+    }
+
+    .review-card {
+        padding: 22px 18px;
+    }
+
+    .review-text {
+        font-size: 12px;
+    }
+}
