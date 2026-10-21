@@ -23,7 +23,7 @@
     }
 }
 
-/* movile */
+/* mobile */
 @media (max-width: 480px) {
     .logo {
         font-size: 16px;
@@ -31,5 +31,127 @@
 
     .navbar {
         min-height: 58px;
+    }
+}
+
+
+/*===================  hero section =============== */
+/* tablet */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 45px 6% 60px;
+    }
+
+    .hero-container {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+
+    .hero-content>p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-buttons,
+    .hero-users {
+        justify-content: center;
+    }
+
+    .hero-image-area {
+        width: 100%;
+        max-width: 500px;
+        min-height: 350px;
+        margin: 0 auto;
+    }
+
+    .hero-main-image {
+        height: 310px;
+        width: 70%;
+    }
+
+    .hero-image-bg {
+        width: 75%;
+    }
+
+    .card-one {
+        left: 0;
+    }
+
+    .card-two {
+        left: -2%;
+    }
+
+    .card-three {
+        left: 0;
+    }
+}
+
+/* mobile */
+@media (max-width: 480px) {
+    .hero-section {
+        padding: 35px 5% 45px;
+    }
+
+    .hero-content h1 {
+        font-size: 31px;
+    }
+
+    .hero-content>p {
+        font-size: 13px;
+    }
+
+    .hero-buttons {
+        gap: 14px;
+    }
+
+    .primary-btn {
+        padding: 12px 20px;
+    }
+
+    .hero-image-area {
+        min-height: 285px;
+    }
+
+    .hero-main-image {
+        width: 72%;
+        height: 245px;
+    }
+
+    .floating-card {
+        width: 115px;
+        padding: 10px 7px;
+    }
+
+    .floating-card h3 {
+        font-size: 14px;
+    }
+
+    .floating-card h4 {
+        font-size: 10px;
+    }
+
+    .floating-card p {
+        font-size: 9px;
+    }
+
+    .card-one {
+        top: 8%;
+    }
+
+    .card-two {
+        top: 40%;
+        left: -2%;
+    }
+
+    .card-three {
+        bottom: 0;
+    }
+
+    .hero-users span {
+        font-size: 10px;
     }
 }
