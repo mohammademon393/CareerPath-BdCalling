@@ -678,3 +678,44 @@
         padding: 12px;
     }
 }
+
+
+
+/* =========================================
+  FOOTER RESPONSIVE DESIGN
+========================================= */
+
+/* Tablet */
+@media (max-width: 992px) {
+    .footer-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 40px 30px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .site-footer {
+        padding: 45px 6% 20px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .footer-brand p {
+        max-width: 100%;
+    }
+
+    .footer-bottom {
+        margin-top: 35px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .footer-legal {
+        gap: 15px;
+    }
+}
