@@ -309,39 +309,127 @@ body {
     margin-left: 0;
 }
 
+
+
 /* =========================
-   RESPONSIVE DESIGN
+   ABOUT US SECTION
 ========================= */
 
-@media (max-width: 992px) {
-    .hero-section {
-        padding: 50px 5% 65px;
-    }
-
-    .hero-container {
-        gap: 35px;
-    }
-
-    .hero-content h1 {
-        font-size: 34px;
-    }
-
-    .hero-image-area {
-        min-height: 330px;
-    }
-
-    .hero-main-image {
-        height: 290px;
-        width: 75%;
-    }
-
-    .floating-card {
-        width: 135px;
-        padding: 12px;
-    }
-
-    .card-two {
-        left: -3%;
-    }
+.about-section {
+    position: relative;
+    padding: 55px 7% 70px;
+    background: #ffffff;
+    overflow: hidden;
 }
+
+.about-container {
+    position: relative;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+/* Section Heading */
+
+.about-heading {
+    max-width: 750px;
+    margin: 0 auto 65px;
+    text-align: center;
+}
+
+.about-heading h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #111111;
+    margin-bottom: 15px;
+}
+
+.about-heading p {
+    color: #444444;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+/* About Cards */
+
+.about-cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+}
+
+.about-card {
+    position: relative;
+    min-height: 210px;
+    padding: 48px 25px 28px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Card Icon */
+
+.about-icon {
+    position: absolute;
+    top: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #062b43;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.about-card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111111;
+    margin-bottom: 15px;
+}
+
+.about-card p {
+    font-size: 12px;
+    line-height: 1.9;
+    color: #444444;
+}
+
+/* Learn More Button */
+
+.about-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+/* Decorative Circle */
+
+.about-circle {
+    position: absolute;
+    bottom: 5px;
+    left: -25px;
+
+    width: 80px;
+    height: 80px;
+    border: 3px solid #062b43;
+    border-radius: 50%;
+    z-index: 0;
+    pointer-events: none;
+}
+
+
 

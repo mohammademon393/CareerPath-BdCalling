@@ -36,6 +36,38 @@
 
 
 /*===================  hero section =============== */
+
+@media (max-width: 992px) {
+    .hero-section {
+        padding: 50px 5% 65px;
+    }
+
+    .hero-container {
+        gap: 35px;
+    }
+
+    .hero-content h1 {
+        font-size: 34px;
+    }
+
+    .hero-image-area {
+        min-height: 330px;
+    }
+
+    .hero-main-image {
+        height: 290px;
+        width: 75%;
+    }
+
+    .floating-card {
+        width: 135px;
+        padding: 12px;
+    }
+
+    .card-two {
+        left: -3%;
+    }
+}
 /* tablet */
 @media (max-width: 768px) {
     .hero-section {
@@ -89,6 +121,7 @@
         left: 0;
     }
 }
+
 
 /* mobile */
 @media (max-width: 480px) {
@@ -153,5 +186,112 @@
 
     .hero-users span {
         font-size: 10px;
+    }
+}
+
+
+/* =========================
+   About RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 992px) {
+    .about-section {
+        padding: 50px 5% 60px;
+    }
+
+    .about-cards {
+        gap: 18px;
+    }
+
+    .about-card {
+        padding: 45px 18px 25px;
+    }
+
+    .about-card h3 {
+        font-size: 14px;
+    }
+
+    .about-heading h2 {
+        font-size: 32px;
+    }
+
+    .about-circle {
+        left: -12px;
+    }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+    .about-section {
+        padding: 45px 6% 55px;
+    }
+
+    .about-heading {
+        margin-bottom: 55px;
+    }
+
+    .about-heading h2 {
+        font-size: 30px;
+    }
+
+    .about-cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 40px 20px;
+    }
+
+    .about-card:last-child {
+        grid-column: 1 / -1;
+        width: calc(50% - 10px);
+        justify-self: center;
+    }
+}
+ /* sm device */
+@media (max-width: 480px) {
+    .about-section {
+        padding: 35px 5% 45px;
+    }
+
+    .about-heading {
+        margin-bottom: 50px;
+    }
+
+    .about-heading h2 {
+        font-size: 27px;
+    }
+
+    .about-heading p {
+        font-size: 12px;
+    }
+
+    .about-cards {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .about-card,
+    .about-card:last-child {
+        width: 100%;
+        min-height: 190px;
+        grid-column: auto;
+        padding: 45px 25px 25px;
+    }
+
+    .about-card h3 {
+        font-size: 15px;
+    }
+
+    .about-card p {
+        font-size: 12px;
+    }
+
+    .about-button {
+        margin-top: 30px;
+    }
+
+    .about-circle {
+        width: 55px;
+        height: 55px;
+        left: -15px;
+        bottom: 0;
     }
 }
