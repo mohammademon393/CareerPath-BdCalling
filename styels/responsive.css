@@ -1,38 +1,9 @@
 /* All responsive releted css */
 
-/* navber css */
+/* =========================================
+   NAVBAR TABLET & MOBILE
+========================================= */
 
-/* Tablet */
-@media (max-width: 768px) {
-    .header {
-        padding: 10px 4%;
-    }
-
-    .navbar {
-        padding: 14px 16px;
-        flex-wrap: wrap;
-    }
-
-    .nav-links,
-    .nav-actions {
-        display: none;
-    }
-
-    .menu-icon {
-        display: block;
-    }
-}
-
-/* mobile */
-@media (max-width: 480px) {
-    .logo {
-        font-size: 16px;
-    }
-
-    .navbar {
-        min-height: 58px;
-    }
-}
 
 
 /*===================  hero section =============== */
@@ -419,7 +390,7 @@
         padding: 25px 5% 40px;
     }
 
-    
+
 
     .stories-container {
         padding: 30px;
