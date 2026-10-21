@@ -295,3 +295,113 @@
         bottom: 0;
     }
 }
+
+
+/* =========================
+  Our service RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 992px) {
+    .services-section {
+        padding: 35px 5%;
+    }
+
+    .services-container {
+        padding: 30px;
+        gap: 30px;
+    }
+
+    .services-content h2 {
+        font-size: 28px;
+    }
+
+    .services-image-main {
+        height: 165px;
+    }
+
+    .services-image-bottom {
+        height: 125px;
+    }
+}
+
+@media (max-width: 768px) {
+    .services-container {
+        grid-template-columns: 1fr;
+        gap: 35px;
+        padding: 30px;
+    }
+
+    .services-images {
+        width: 100%;
+        max-width: 480px;
+        margin: 0 auto;
+    }
+
+    .services-image-main {
+        width: 90%;
+        height: 220px;
+    }
+
+    .services-image-bottom {
+        width: 90%;
+        height: 170px;
+    }
+
+    .services-content h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .services-section {
+        padding: 25px 5%;
+    }
+
+    .services-container {
+        padding: 22px 18px;
+        gap: 28px;
+        border-radius: 12px;
+    }
+
+    .services-images {
+        padding: 0 5px;
+    }
+
+    .services-image-main {
+        height: 165px;
+    }
+
+    .services-image-bottom {
+        height: 125px;
+    }
+
+    .services-image-circle {
+        width: 75px;
+        height: 75px;
+        left: -3px;
+        bottom: -8px;
+    }
+
+    .services-content h2 {
+        font-size: 26px;
+        margin-bottom: 12px;
+    }
+
+    .services-description {
+        font-size: 12px;
+    }
+
+    .service-item {
+        gap: 10px;
+    }
+
+    .service-icon {
+        width: 34px;
+        height: 34px;
+        font-size: 12px;
+    }
+
+    .service-item span {
+        font-size: 12px;
+    }
+}

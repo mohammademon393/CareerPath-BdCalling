@@ -433,3 +433,138 @@ body {
 
 
 
+/* =========================
+   OUR SERVICES SECTION
+========================= */
+
+.services-section {
+    padding: 45px 7%;
+    background: #ffffff;
+}
+
+.services-container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 35px 45px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 55px;
+
+    background: #e9da78;
+    border-radius: 15px;
+}
+
+/* Services Images */
+
+.services-images {
+    position: relative;
+    min-width: 0;
+    padding: 0 10px 0 15px;
+}
+
+.services-image-main,
+.services-image-bottom {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.services-image-main {
+    width: 90%;
+    height: 185px;
+    margin-bottom: 15px;
+}
+
+.services-image-bottom {
+    width: 90%;
+    height: 145px;
+    /* margin-left: 10%; */
+    border-radius: 16px;
+}
+
+.services-images img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.services-images img:hover {
+    transform: scale(1.05);
+}
+
+/* Decorative Circle */
+
+.services-image-circle {
+    position: absolute;
+    z-index: 0;
+    left: -5px;
+    bottom: -12px;
+
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    background: #062b43;
+}
+.service-img{
+    display: flex;
+    gap: 20px;
+}
+/* Services Content */
+
+.services-content h2 {
+    margin-bottom: 18px;
+    color: #080808;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.services-description {
+    margin-bottom: 20px;
+    color: #292929;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+/* Service List */
+
+.service-item {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin-bottom: 14px;
+}
+
+.service-icon {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 38px;
+    height: 38px;
+
+    background: #ffffff;
+    border-radius: 50%;
+    color: #062b43;
+    font-size: 14px;
+}
+
+.service-item span {
+    color: #171717;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* Get Started Button */
+
+.services-btn {
+    display: inline-block;
+    margin-top: 12px;
+}
+
+
