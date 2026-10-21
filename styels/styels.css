@@ -1,0 +1,86 @@
+
+/* Google Font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    padding: 10px 7%;
+    background: #ffffff;
+}
+
+.navbar {
+    background: #062B43;
+    min-height: 68px;
+    padding: 12px 20px;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    list-style: none;
+}
+
+.nav-links a,
+.sign-in {
+    color: #ffffff;
+    font-size: 13px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active,
+.sign-in:hover {
+    color: #E9DA78;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.trial-btn {
+    background: #ffffff;
+    color: #062B43;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.trial-btn:hover {
+    background: #E9DA78;
+}
+
+.menu-icon {
+    display: none;
+    color: #ffffff;
+    font-size: 22px;
+    cursor: pointer;
+}
+
